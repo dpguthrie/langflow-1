@@ -135,7 +135,6 @@ class DeploymentService(Service, DeploymentServiceProtocol, ABC):
         """Delete a provider snapshot."""
         raise NotImplementedError
 
-
     @abstractmethod
     async def teardown(self) -> None:
         raise NotImplementedError

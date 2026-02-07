@@ -341,4 +341,3 @@ class DeploymentServiceProtocol(Protocol):
     async def delete_snapshot(self, snapshot_id: str) -> None:
         """Delete a provider snapshot."""
         ...
-
